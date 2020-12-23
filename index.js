@@ -18,7 +18,7 @@ function wrapAdjective(flair = "*") {
 const sentence = wrapAdjective('!!!')('great')
 
 const Calculator = {
-    use: 'arithmetic',
+    // use: 'arithmetic',
     add: function(num1, num2) {
         return num1 + num2 
     },
